@@ -1,6 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
+
 const MIN_DEPOSIT_AMOUNT = 1000;
 const MAX_DEPOSIT_AMOUNT = 3000000;
 const MIN_DEPOSIT_TERM_MONTH = 1;
