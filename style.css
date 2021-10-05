@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: #E5E5E5;
+}
+
+header {
+    font-size: 16px;
+    max-width: 100%;
+    height: 44px;
+    background-color: black;
+}
+
+.deposit {
+    text-align: center;
+    padding-top: 1px;
+    margin: 0 auto;
+    height: 657px;
+    width: 802px;
+    background-color: #FAF6F6;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 568px;
+    height: 348px;
+
+}
+
+.top__menu {
+    display: flex;
+}
+
+img {
+    width: 87px;
+    height: 24px;
+    margin-left: 142px;
+    margin-top: 12px;
+}
+
+.top__menu_text {
+    vertical-align: 9px;
+    margin-top: 0;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+h1 {
+    margin: 0;
+    font-size: 34px;
+    line-height: 42px;
+    color: #1F2229;
+    margin-top: 41px;
+}
+
+.deposit__text {
+    width: 715px;
+    height: 14px;
+    margin-top: 30px;
+    margin-left: 43px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1F2229;
+    vertical-align: bottom;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.container > p {
+    width: 244px;
+    height: 55px;
+    margin-top: 35px;
+}
+
+.deposit_checkbox {
+    width: 25px;
+    height: 25px;
+}
+
+
+.deposit__triple_line_text {
+    text-align: center;
+    line-height: 16px;
+}
+
+.child_container_with_selector {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deposit__button_container {
+    padding-top: 80px;
+    padding-left: 114px;
+    margin-right: 0;
+}
+
+.deposit__button {
+    background: #33C4A0;
+    box-sizing: border-box;
+    margin-right: 0;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+}
+
+.deposit__year_month {
+    width: 67px;
+    height: 61px;
+}
+
+.deposit__model_show {
+    display: none;
+}
+
+.deposit__model_show_on {
+    display: block;
+}
+
+.result {
+    border-top: black 1px solid;
+    width: 568px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 230px;
+    left: 35%;
+    text-align: left;
+}
+
+.ruble, .final_price {
+    font-size: 30px;
+}
+p {
+    position: relative;
+}
+label {
+    position: absolute;
+    
+}
